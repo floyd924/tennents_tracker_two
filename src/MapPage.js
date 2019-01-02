@@ -32,7 +32,9 @@ class MapPage extends Component {
 
   render(){
     const startPosition = [55.945691, -3.203956];
+    
     const startZoon = 12;
+
     const image = new L.Icon({
       iconUrl: require('./images/marker-icon.png'),
       shadowUrl: require('./images/marker-shadow.png'),
