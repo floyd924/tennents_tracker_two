@@ -31,6 +31,11 @@
   }
 }
 
+@font-face {
+    font-family: 'Patua One', cursive;
+    src: url("https://fonts.googleapis.com/css?family=Patua+One") format("truetype");
+}
+
 .this-is-map {
   height: 300px;
   width:90%;
@@ -40,4 +45,32 @@
 
 .review-image {
   width: 40px;
+}
+
+body {
+  background: #FFCD4B;
+  font-family: 'Patua One', cursive;
+  /* background-image: url(http://cdn.bottlenose-wine.com/images/full/279792.jpg); */
+}
+
+.leaflet-popup-content-wrapper {
+  /* height: 150px; */
+  height: 200px;
+  width: 200px;
+  overflow: scroll;
+}
+
+
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  background-color: silver;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.leaflet-popup-tip-container {
+}
+
+.review-image {
+  width: 150px;
 }
